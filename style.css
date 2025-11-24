@@ -1,0 +1,54 @@
+body{font-family: sans-serif;
+background-color: #FFF9F4;}
+.box{background-color: #FFF9F4;
+box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;;}
+.NAVBOX{
+    display: inline-block;
+}
+.logo{height: 40px;
+padding-left: 110px;
+margin-top: none
+;}
+.nike{font-size: 24px;
+padding-top: 0px;
+color: #FF8367;
+}
+.nikereact{font-size: 20px;
+display: inline-block;
+padding-left: 0px;
+margin-top: none;
+margin-left: none
+;
+margin-right: 800px;}
+.navbar{
+display: inline-block;
+justify-content: space-between;}
+.navbarbox{
+margin-right: 10px;
+display: flex;
+justify-content: space-between;}
+li{display: inline-block
+
+}
+a{text-decoration: none;
+color: black;
+margin-right: 100px;
+}
+nav{display: flex;
+justify-content: space-between;}
+.box2{
+height: 650px;
+margin-top: 10px;box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;;}
+.shoe{height: 500px;
+margin-left: 150px;
+margin-top: 0px;}
+.text{display: inline-block;
+font-family: "Bebas Neue";}
+.NIKE{color: #FF8367;
+}
+@font-face {font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: 200px;
+    font-style: oblique;}
+    .infinity{color: ;}
+
