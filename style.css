@@ -1,54 +1,440 @@
-body{font-family: sans-serif;
-background-color: #FFF9F4;}
-.box{background-color: #FFF9F4;
-box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;;}
-.NAVBOX{
+#body {
+    font-family: sans-serif;
+    background-color: #E5E5E5;
+    height: auto;
+    background-color: #E5E5E5;
+}
+
+.box {
+    background-color: #FFF9F4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    ;
+}
+
+.NAVBOX {
     display: inline-block;
 }
-.logo{height: 40px;
-padding-left: 110px;
-margin-top: none
-;}
-.nike{font-size: 24px;
-padding-top: 0px;
-color: #FF8367;
+
+.logo {
+    height: 40px;
+    padding-left: 140px;
+    margin-top: none;
 }
-.nikereact{font-size: 20px;
-display: inline-block;
-padding-left: 0px;
-margin-top: none;
-margin-left: none
-;
-margin-right: 800px;}
-.navbar{
-display: inline-block;
-justify-content: space-between;}
-.navbarbox{
-margin-right: 10px;
-display: flex;
-justify-content: space-between;}
-li{display: inline-block
+
+.nike {
+    font-size: 24px;
+    padding-top: 0px;
+    color: #FF8367;
+}
+
+.nikereact {
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: none;
+    margin-left: none;
+    margin-right: 550px;
+}
+
+.navbar {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.navbarbox {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.front {
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoe {
+    margin-top: 15px;
+    margin-left: 250px;
+    height: 500px;
+    width: 550px;
+    size: 100px;
+    display: flex;
+    flex-direction: column;
 
 }
-a{text-decoration: none;
-color: black;
+
+.NIKE {
+    color: #FF8367;
+    font-family: Bebas Neue;
+    font-weight: 500;
+    font-size: 90px;
+    margin-bottom: -80px;
+
+}
+
+.INFINITY {
+    color: #363958;
+    font-family: Bebas Neue;
+    font-weight: 500;
+    font-size: 100px;
+    padding-bottom: none;
+    margin-bottom: -20px;
+
+
+}
+
+.img {
+    display: inline-block;
+}
+
+.text {
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-right: 350px;
+    margin-bottom: 200px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+
+    display: block;
+}
+
+p {
+    display: block;
+    margin-bottom: none;
+}
+
+button {
+    display: inline-block;
+    margin-bottom: none;
+    color: white;
+    background-color: #0B5ED7;
+
+    border-radius: 5px;
+
+    border: 1px solid #0B5ED7;
+    height: 40px;
+    width: 100px;
+}
+
+.allCards {
+    background-color: #E5E5E5;
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+    /* justify-content: right; */
+}
+
+.casual {
+    color: #363958;
+
+    font-size: 80px;
+    font-family: Bebas Neue;
+    font-weight: 200;
+    margin-left: 100px;
+}
+
+
+.card1 {
+    border: 10px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    height: 350px;
+    width: 300px;
+    margin-left: 100px;
+    border-bottom: -200px;
+    margin-top: -20px;
+
+
+
+
+}
+
+.img1 {
+    height: 400px;
+    margin-left: -50px;
+}
+
+.card1body {
+    background-color: #FFFFFF;
+    height: 180px;
+    width: 300px;
+    margin-left: 100px;
+    border: 10px solid #FFFFFF;
+    border-radius: 15px;
+
+
+    margin-top: -20px;
+}
+
+.card1title {
+    color: #363958;
+    font-size: 30px;
+
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: roboto;
+
+    text-transform: capitalize;
+}
+
+.card1text {
+    margin-top: -30px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+.card1num {
+    color: #FF8367;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.card1button {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.card2 {
+    border: 10px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    height: 350px;
+    width: 300px;
+    margin-left: 100px;
+    border-bottom: -200px;
+    margin-top: 20px;
+}
+
+.card11 {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    height: 360px;
+}
+
+.card3title {
+    color: #363958;
+    font-size: 25px;
+
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: roboto;
+
+    text-transform: capitalize;
+}
+
+.img3 {
+    height: 400px;
+    margin-left: -43px;
+}
+
+.img2-1 {
+    height: 410px;
+    width: 320px;
+    margin-left: -10px;
+}
+
+.card2-1title {
+    font-size: 30px;
+    color: #363958;
+    font-size: 25px;
+
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: roboto;
+
+    text-transform: capitalize;
+}
+
+.img2-2 {
+    height: 410px;
+    width: 320px;
+    margin-left: -10px;
+}
+
+.img2-3 {
+    height: 410px;
+    width: 320px;
+    margin-left: -10px;
+}
+
+.formal {
+    color: #363958;
+    font-size: 80px;
+    font-family: Bebas Neue;
+    font-weight: 200;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.formalsection {
+    margin-bottom: -50px;
+    background-color: #E5E5E5;
+}
+
+.box1 {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 470px;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+}
+
+.box2 {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 470px;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    margin-top: 20px
+}
+
+.box3 {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 470px;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    margin-top: 20px
+}
+
+.box1img {
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.box1text {
+    display: block;
+    margin-left: 140px;
+    margin-top: -60px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.box1-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box1head {
+    color: #363958;
+    display: block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.section3 {
+    display: flex;
+    /* margin-bottom: 50px; */
+    flex-wrap: wrap;
+    gap: 150px;
+    
+}
+
+
+.boximg {
+    height: 300px;
+    margin-top: 250px;
+}
+.boxes{margin-top: 150px;}
+
+.lastsection{background-color: #FFFFFF;
+height: 220px;
+width: 1200px;
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+justify-content: center;
 margin-right: 100px;
 }
-nav{display: flex;
-justify-content: space-between;}
-.box2{
-height: 650px;
-margin-top: 10px;box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;;}
-.shoe{height: 500px;
-margin-left: 150px;
-margin-top: 0px;}
-.text{display: inline-block;
-font-family: "Bebas Neue";}
-.NIKE{color: #FF8367;
+.formheading{color: #363958;}
+.email{border: 1px solid #5a5c79;
+    width: 930px;
+    height: 50px;
+border-radius: 10px;
+margin-right: 20px;
+font-size: 20PX;
+margin-top: 20px;}
+.SUBSCRIBE{background-color:#0B5ED7;height: 55px;margin-left: -125PX;font-size: 18px;
+    border-radius: 8px;
 }
-@font-face {font-family: 'Bebas Neue';
-    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
-    font-weight: 200px;
-    font-style: oblique;}
-    .infinity{color: ;}
+.emptybox{background-color: #E5E5E5;
+height: 100px;}
+.SUBSCRIBE :hover{background-color: aqua;}
+.footerul1{
+flex-wrap: wrap;
+text-align: left;
+margin-left: 10px;
+margin-right: 30px;
 
+}
+.footer{background-color: #F8F9FA;
+height: 430px;
+font-size: 25px;
+font-weight: 500;
+box-sizing: border-box;
+margin-top: -30px;}
+h5{color: #363958;
+font-size: 30px;
+font-weight: 1000;
+font-family: Roboto;
+box-sizing: border-box;
+text-align: left;
+margin-top: 100px;
+margin-bottom: -5px;
+}
+.footerli{display: block; }
+.list1{text-align: left;
+margin-bottom: -50px;
+display: inline-block;}
+.alllists{display: flex;
+flex-wrap: wrap;
+}
+.footer2{background-color: #F8F9FA;
+margin-top: 30px;
+font-size: 30px;}
+.footerline{color: #FF8367;
+margin-top: 50px;}
